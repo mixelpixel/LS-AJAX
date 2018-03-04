@@ -10,26 +10,26 @@ const friends = [
 		age: 30,
 		email: 'ben@lambdaschool.com',
 	},
-	// {
-	// 	name: 'Austen',
-	// 	age: 45,
-	// 	email: 'austen@lambdaschool.com',
-	// },
-	// {
-	// 	name: 'Ryan',
-	// 	age: 15,
-	// 	email: 'ryan@lambdaschool.com',
-	// },
-	// {
-	// 	name: 'Sean',
-	// 	age: 35,
-	// 	email: 'sean@lambdaschool.com',
-	// },
-	// {
-	// 	name: 'Michelle',
-	// 	age: 67,
-	// 	email: 'michelle@gmail.com',
-	// },
+	{
+		name: 'Austen',
+		age: 45,
+		email: 'austen@lambdaschool.com',
+	},
+	{
+		name: 'Ryan',
+		age: 15,
+		email: 'ryan@lambdaschool.com',
+	},
+	{
+		name: 'Sean',
+		age: 35,
+		email: 'sean@lambdaschool.com',
+	},
+	{
+		name: 'Michelle',
+		age: 67,
+		email: 'michelle@gmail.com',
+	},
 ];
 
 app.use(bodyParser.json());
